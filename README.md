@@ -29,6 +29,6 @@ each(items,
 
 
 // Alternatively in browser:
-ssyncEach(list, fn, callback);
+syncEach(list, fn, callback);
 ```
 
