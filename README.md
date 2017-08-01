@@ -18,11 +18,11 @@ For browsers and node.js.
 ```javascript
 var each = require('sync-each');
 each(items, 
-	function (items,next) {
+	function (item,next) {
 			//perform async operation with item
-			next(err,transformed)
+			next(err, updatedItem)
 	},
-	function (err,transformedItems) {
+	function (err,updatedItems) {
 			//Success callback
 	}
 )
